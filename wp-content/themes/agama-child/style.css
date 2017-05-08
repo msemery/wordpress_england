@@ -1,0 +1,43 @@
+/*
+Theme Name: agama-child
+Description: Child theme of agama
+Template: agama
+Tags: custom-menu, footer-widgets, theme-option, full-width-template, blog, editor-style
+
+*/
+
+
+
+
+/*modification du thème enfant*/
+/*couleur de la nav bar de bleu foncé à bleu moins foncé*/
+.sticky-header.clear.sticky-header {
+  background-color: rgba(0, 42, 79, 0.5);
+}
+
+.sticky-header.clear.sticky-header-shrink {
+  background-color: rgba(19, 57, 119, .5);
+  transition: 1s;
+}
+
+/*background-color du body*/
+#page.hfeed.site {
+  background-color: rgba(244, 246, 247, 1);
+}
+
+#main.wrapper {
+  background-color: rgba(244, 246, 247, 1);
+}
+
+/*Ajout d'une barre de recherche*/
+#searchform {
+  float: right;
+  width: 220px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+/*fil d'arianne*/
+.breadcrumb {
+  background-color: red;
+}
